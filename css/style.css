@@ -1,0 +1,243 @@
+/* Geral */
+section {
+    padding: 75px 0;
+}
+
+.iconesfont {
+    padding: 7px 9px;
+    background-color: white;
+    color: black;
+    border-radius: 100%;
+    font-size: 18px;
+}
+
+/* Navbar css */
+#logoimg {
+    position: relative;
+    box-sizing: border-box;
+    width: 100px;
+}
+
+.guias{
+    margin: 0px 15px;
+    text-transform: uppercase;
+}
+
+nav.bg-cinza{
+    background-color: #3a3a3a;
+}
+
+a.active {
+    background-color: #2a2a2a;
+    border-bottom: 5px solid black;
+}
+
+/* section Banner (carousel)*/
+#home-section-carousel {
+    position: relative;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+#carouselExampleIndicators {
+    height: 90vh;
+}
+
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  height: 100%;
+}
+
+#home-section .fas,
+#create-section .fas {
+color: #008ed6;
+background: #fff;
+padding: 5px;
+border-radius: 5px;
+}
+
+#explore-section .fas,
+#share-section .fas {
+background: #333;
+color: #fff;
+padding: 5px;
+border-radius: 5px;
+}
+
+/* card carousel */
+#home-section-card {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 950px) {
+    #home-section-card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.card-body {
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+.form-control {
+    background-color: #959595;
+    border: 2px solid black;
+    color: black;
+}
+
+.form-control::placeholder, .form-control2::placeholder {
+    color: #424242;
+}
+
+/* section Button div */
+section#buttondiv {
+    padding: 40px 0px;
+}
+
+#buttondiv .btn-light {
+    border-radius: 0px;
+}
+
+.btn-align {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@media (max-width: 1000px) {
+    .textbtndiv {
+        text-align: center;
+    }
+
+    .btn-align {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -30%);
+        transform: translate(-50%, -30%);
+    }
+}
+
+/* section Sobre */
+.responsiveimg {
+    width: 100%;
+    height: 100%;
+}
+
+section div.container{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+section#sobre {
+    padding: 0 0;
+}
+
+.about-text {
+    margin: 50px 0;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 200px;
+}
+
+/* section Galeria */
+.galeria-body{
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.galeria-pics img{
+    border: 1px solid black;
+    box-shadow: 6px 9px rgba(0, 0, 0, 0.3) ;
+    margin: 10px 10px;
+    width: 310px;
+    height: 210px;
+}
+
+/* section Notícias */
+section#noticias {
+    padding: 75px 0 15px 0;
+}
+
+.news-body{
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+.item-details > p {
+    height: 9em;
+}
+
+.item-details > h5 {
+    height: 3em;
+}
+
+.item-details a {
+    position: relative;
+    text-decoration:none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0 auto;
+}
+
+.item-details .btn-primary {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.btn-news {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* section Contato */
+#contato {
+    background-image: url(../img/contactimg.jpg);
+    background-size: cover;
+}
+
+#btn-contactform {
+    border-radius: 0px;
+    margin:10px auto;
+    display:block;
+}
+
+#contactForm .form-control, #contactForm .form-control2 {
+    margin:10px 10px 0 0;
+}
+
+#contato .iconesfont {
+    margin-bottom: 5px;
+}
+
+.accordionColor {
+    background-color: #959595;
+    border: 2px solid black;
+}
+
+.accordionText {
+    color: #000000;
+    text-decoration: none;
+}
+
+.accordionText:hover {
+    transition: 0.2s;
+    color: #505050;
+    text-decoration: none;
+}
